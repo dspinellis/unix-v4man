@@ -1,8 +1,9 @@
-# Typeset the Fourth Research Edition Unix Programmer's Manual
+# The Fourth Research Edition Unix Programmer's Manual
 This repository maintains the tools for typesetting and
-making available the *Fourth Research Edition Unix Programmer's Manual*.
-The generated typeset manual in PDF form is made available
-[here](https://dspinellis.github.io/unix-v4man/index.html).
+making available the *Unix Programmer's Manual*
+(Fourth Edition, November 1973).
+The generated typeset manual made available
+[in PDF form](https://dspinellis.github.io/unix-v4man/v4man.pdf).
 
 The manual pages and tools are derived from 1973 material unearthed
 by [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), and
