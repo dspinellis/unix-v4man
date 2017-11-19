@@ -10,7 +10,7 @@ by [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), and
 [made available](http://www.tuhs.org/Archive/Distributions/Research/Dennis_v4/)
 through the [The Unix Heritage Society](http://www.tuhs.org/).
 This is the first edition of the manual that was created
-in [troff - typeset - form](http://www.tuhs.org/Archive/Distributions/Research/Dennis_v3/Readme.v3man) (rather than *nroff*).
+in [troff (typeset) form](http://www.tuhs.org/Archive/Distributions/Research/Dennis_v3/Readme.v3man) (rather than using *nroff*'s line-printer formatting).
 I modernized the old shell scripts and corrected some minor markup
 glitches through commits that are recorded in this repository.
 You can find the evolution of the manual pages recorded in the
