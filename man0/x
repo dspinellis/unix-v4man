@@ -1,1 +1,3 @@
-troff +$1 -$2 intro basinf toc ptx
+#!/bin/sh
+# Typeset the front matter
+groff -Tps taa intro basinf toc ptx
