@@ -2,7 +2,7 @@
 This repository maintains the tools for typesetting and
 making available the *Unix Programmer's Manual*
 (Fourth Edition, November 1973).
-The generated typeset manual made available
+The generated typeset manual is made available
 [in PDF form](https://dspinellis.github.io/unix-v4man/v4man.pdf).
 
 The manual pages and tools are derived from 1973 material unearthed
