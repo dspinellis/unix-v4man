@@ -24,7 +24,7 @@ DESCRIPTION	stty____
 sets mode bits for a typewriter whose file descriptor
 is passed in r0 (resp. is the first argument to the call).
 First, the system delays until the typewriter is quiescent.
-Then, the argument dcrsr_____ (first word in arg___) is placed into the typewriter's
+Then, the argument dcrsr_____ (first word in arg___) is placed into the type\%wri\%ter's
 receiver control and status register,
 and dctsr_____ (second word in arg___) is placed in the transmitter control and status register.
 The DC-11 manual must be consulted for the format of these
@@ -96,7 +96,7 @@ SEE ALSO	stty(I), gtty(II)
 .sp
 .ti 0
 DIAGNOSTICS	The error bit
-(c-bit) is set if the file descriptor does not refer to a typewriter.
+(c-bit) is set if the file descriptor does not refer to a type\%writer.
 From C, a negative value indicates an error.
 .sp
 .ti 0

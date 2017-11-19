@@ -1,5 +1,5 @@
 .th SH I 4/18/73
-.hc 
+.hc
 .sh NAME
 sh  \*-  shell (command interpreter)
 .sh SYNOPSIS
@@ -103,7 +103,7 @@ If a core image is produced,
 `\*- Core dumped' is appended to the appropriate message.
 .s3
 .bd "Redirection of I/O."
-There are three character sequences that cause the immediately following string
+There are three char\%ac\%ter sequences that cause the immediately following string
 to be interpreted as a special argument to the Shell itself.
 Such an argument may
 appear anywhere among
@@ -139,17 +139,17 @@ associated with any but the last command of a pipeline
 is ineffectual, as is `<arg' in any but the first.
 .s3
 .bd "Generation of argument lists."
-If any argument contains any of the characters `?',
+If any argument contains any of the char\%ac\%ters `?',
 `*' or `[', it is treated specially as follows.
 The current directory is searched for files which
 .it match
 the given argument.
 .s3
-The character `*' in an argument matches any string of characters
+The char\%ac\%ter `*' in an argument matches any string of char\%ac\%ters
 in a file name (including the null string).
 .s3
 The character `?' matches any
-single character in a file name.
+single char\%ac\%ter in a file name.
 .s3
 Square brackets `[...]' specify
 a class of characters which
@@ -167,7 +167,7 @@ Other characters match only the same character in
 the file name.
 .s3
 For example, `*' matches all file names;
-`?' matches all one-character file names; `[ab]*.s' matches
+`?' matches all one-char\%ac\%ter file names; `[ab]*.s' matches
 all file names beginning with `a' or `b' and ending with `.s';
 `?[zi\*-m]' matches all two-character file names ending
 with `z' or the letters `i' through `m'.
@@ -206,15 +206,15 @@ with arguments
 in that order.
 .s3
 .bd "Quoting."
-The character `\\' causes the immediately following character
+The char\%ac\%ter `\\' causes the immediately following char\%ac\%ter
 to lose any special meaning it may have to the Shell;  in this
-way `<', `>', and other characters meaningful to the
+way `<', `>', and other char\%ac\%ters meaningful to the
 Shell may be passed as part of arguments.
 A special case of this feature allows the continuation of commands
 onto more than one line:  a new-line preceded by `\\' is translated
 into a blank.
 .s3
-Sequences of characters enclosed in double (") or single (\*a)
+Sequences of char\%ac\%ters enclosed in double (") or single (\*a)
 quotes are also taken literally.
 For example:
 .s3

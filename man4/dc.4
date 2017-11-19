@@ -16,19 +16,19 @@ files; they are opened by
 .it init
 and become a user's
 input and output file.
-The very first typewriter file open in a process becomes
+The very first type\%writer file open in a process becomes
 the
 .it "control typewriter"
-for that process.  The control typewriter plays a special
+for that process.  The control type\%writer plays a special
 role in handling quit or interrupt signals, as discussed
 below.
-The control typewriter is inherited by a child process during a
+The control type\%writer is inherited by a child process during a
 .it fork.
 .s3
 A terminal associated with one of these files ordinarily
-operates in full-duplex mode.  Characters may be typed at any time,
+operates in full-duplex mode.  Char\%ac\%ters may be typed at any time,
 even while output is occurring, and are only lost when the
-system's character input buffers become completely
+system's char\%ac\%ter input buffers become completely
 choked, which is rare,
 or when the user has accumulated the maximum allowed number of
 input characters which have not yet been read by some program.
@@ -68,23 +68,23 @@ and the printing of tabs as spaces.
 See getty(VII) for the way that terminal speed and type are
 detected.
 .s3
-Normally, typewriter input is processed in units of lines.
+Normally, type\%writer input is processed in units of lines.
 This means that a program attempting
 to read will be suspended until an entire line has been
-typed.  Also, no matter how many characters are requested
+typed.  Also, no matter how many char\%ac\%ters are requested
 in the read call, at most one line will be returned.
 It is not however necessary to read a whole line at
-once; any number of characters may be
+once; any number of char\%ac\%ters may be
 requested in a read, even one, without losing information.
 .s3
 During input, erase and kill processing is normally
 done.
-The character `#' erases the
-last character typed, except that it will not erase
+The char\%ac\%ter `#' erases the
+last char\%ac\%ter typed, except that it will not erase
 beyond the beginning of a line or an EOT.
-The character `@' kills the entire
+The char\%ac\%ter `@' kills the entire
 line up to the point where it was typed, but not beyond an EOT.  Both these
-characters operate on a keystroke basis independently
+char\%ac\%ters operate on a keystroke basis independently
 of any backspacing or tabbing that may have been done.
 Either `@' or `#' may be entered literally by preceding
 it by `\\';
@@ -127,14 +127,14 @@ In raw mode, no erase or kill processing is done;
 and the EOT, quit and interrupt characters
 are not treated specially.
 .s3
-The ASCII EOT character may be used to generate an end of file
-from a typewriter.
-When an EOT is received, all the characters
+The ASCII EOT char\%ac\%ter may be used to generate an end of file
+from a type\%writer.
+When an EOT is received, all the char\%ac\%ters
 waiting to be read are immediately passed to
 the program, without waiting for a new-line.
-Thus if there are no characters waiting, which
+Thus if there are no char\%ac\%ters waiting, which
 is to say the EOT occurred at the beginning of a line,
-zero characters will be passed back, and this is
+zero char\%ac\%ters will be passed back, and this is
 the standard end-of-file signal.
 The EOT is not passed on except in raw mode.
 .s3
@@ -148,13 +148,13 @@ Unless other arrangements have been made,
 this signal causes the processes to terminate.
 If the hangup signal is ignored, any read
 returns with an end-of-file indication.
-Thus programs which read a typewriter and test for
+Thus programs which read a type\%writer and test for
 end-of-file on their input
 can terminate appropriately when
 hung up on.
 .s3
-Two characters have a special meaning when typed.
-The ASCII DEL character (sometimes called `rubout')
+Two char\%ac\%ters have a special meaning when typed.
+The ASCII DEL char\%ac\%ter (sometimes called `rub\%out')
 is not passed to a program but generates
 an
 .it interrupt
@@ -166,7 +166,7 @@ ignore the signal or to reveive a simulated
 trap to an agreed-upon location.
 See signal (II).
 .s3
-The ASCII character FS generates the
+The ASCII char\%ac\%ter FS generates the
 .it quit
 signal.
 Its treatment is identical to the interrupt signal
@@ -177,12 +177,12 @@ See signal (II).
 .s3
 Output is prosaic compared to input.
 When one or more
-characters are written, they are actually transmitted
-to the terminal as soon as previously-written characters
+char\%ac\%ters are written, they are actually transmitted
+to the terminal as soon as previously-written char\%ac\%ters
 have finished typing.
 Input characters are echoed by putting them in the output queue
 as they arrive.
-When a process produces characters more rapidly than they can be typed,
+When a process produces char\%ac\%ters more rapidly than they can be typed,
 it will be suspended when its output queue exceeds some limit.
 When the queue has drained down to some threshold
 the program is resumed.
