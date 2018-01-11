@@ -21,7 +21,7 @@
   done
 } |
 # Convert all the postscript into PDF
-gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -sOutputFile=v4man.pdf -
+gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -sOutputFile=v4man.pdf - pdfmarks
 
 # Restore original contents
 (cd man0 && git checkout -- .)

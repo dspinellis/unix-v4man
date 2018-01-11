@@ -1,0 +1,23 @@
+[ /Title (UNIX Programmer's Manual: Fourth Edition)
+  /Author (K. Thompson and D. M. Ritchie)
+  /Subject (UNIX)
+  /Keywords (Unix, operating system)
+  /ModDate (D:19731101000000)
+  /CreationDate (D:20180111142900)
+  /Creator (groff)
+  /Producer (mkall.sh: Ghostscript)
+  /DOCINFO pdfmark
+
+[ /Page 3 /Title (Preface to the Fourth Edition) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 4 /Title (Introduction to this manual) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 6 /Title (How to get started) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 9 /Title (Table of contents) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 14 /Title (Permuted index) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 30 /Title (I. Commands) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 126 /Title (II. System calls) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 170 /Title (III. Subroutines) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 207 /Title (IV. Special files) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 223 /Title (V. File formats) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 234 /Title (VI. User-maintained programs) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 254 /Title (VII. Miscellaneous) /View [/XYZ null null 0] /OUT pdfmark
+[ /Page 264 /Title (VIII. Maintenance) /View [/XYZ null null 0] /OUT pdfmark
