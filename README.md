@@ -1,4 +1,7 @@
 # The Fourth Research Edition Unix Programmer's Manual
+
+[![DOI](https://zenodo.org/badge/111286354.svg)](https://zenodo.org/badge/latestdoi/111286354)
+
 This repository maintains the tools for typesetting and
 making available the *Unix Programmer's Manual*
 (Fourth Edition, November 1973).
